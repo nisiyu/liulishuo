@@ -1,8 +1,12 @@
-body {
-    position: fixed;
-    width:100%;
-    height:auto;
-    background: url(../img/bg_moon@2x.png) bottom fixed no-repeat;
+body:before{
+    content: ' ';
+    position:fixed;
+    z-index:-1;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background: url(../img/bg_moon@2x.png) center 0 no-repeat;
+    background-size: cover;
     background-color: #2b1e59;
-    background-size:cover;
 }
