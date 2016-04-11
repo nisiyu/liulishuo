@@ -1,8 +1,8 @@
 body {
     position: fixed;
     width:100%;
-    height:100%;
+    height:auto;
     background: url(../img/bg_moon@2x.png) bottom fixed no-repeat;
     background-color: #2b1e59;
-    background-size:contain;
+    background-size:cover;
 }
