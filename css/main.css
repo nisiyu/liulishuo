@@ -1,3 +1,9 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    font-family: SimHei ,sans-serif;
+    font-weight:normal;
+}
 body:before{
     content: ' ';
     position:fixed;
@@ -6,7 +12,108 @@ body:before{
     right:0;
     bottom:0;
     left:0;
+    margin:0 auto;
+    width:100%;
+    min-width:320px;
+    max-width:640px;
     background: url(../img/bg_moon@2x.png) center 0 no-repeat;
     background-size: cover;
     background-color: #2b1e59;
+
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #9a9a9a;
+}
+div.content{
+    margin:0.3rem 0.25rem;
+}
+
+div.head_nav{
+    font-size:0.32rem;
+    overflow:hidden;
+}
+
+
+div.nav_left{
+    float:left;
+}
+
+div.nav_right{
+    float:right;
+}
+
+div.test_result > h3 {
+    font-size:0.7rem;
+    color: #fcd302;
+    text-align:center;
+    margin:0.18rem 0;
+}
+div.result_pic{
+    text-align: center;
+    position:relative;
+    width:5.9rem;
+    height:5.26rem;
+}
+img#moon{
+    position:absolute;
+    left:50%;
+    width:5.4rem;
+    margin-left:-2.7rem;
+}
+
+img#mooncake{
+    position:absolute;
+    top:0;
+    left:50%;
+    width:5.3rem;
+    margin-left:-2.65rem;
+    margin-top:0.165rem;
+    z-index:10;
+
+}
+
+img#light {
+    position:absolute;
+    width:9.18rem;
+    margin-left:-4.59rem;
+    margin-top:-1.96rem;
+    left:50%;
+    z-index:5;
+}
+
+p#description{
+    margin:0.3rem 0.43rem;
+    font-size:0.28rem;
+    line-height: 1.4;
+    color: #ffffff;
+
+}
+
+div.interaction{
+    margin-left:0.35rem;
+    margin-right:-0.01rem;
+}
+
+div.interaction > input{
+    width:4.32rem;
+    height:1.02rem;
+    font-size:0.38rem;
+    color:white;
+    border:none;
+    background: url("../img/btn_red@2x.png") 100% repeat-x;
+    background-size:4.32rem 1.02rem;
+}
+
+img#present{
+    float:right;
+    width:0.88rem;
 }
