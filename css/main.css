@@ -4,6 +4,9 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
     font-family: SimHei ,sans-serif;
     font-weight:normal;
 }
+html{
+    overflow-x:hidden;/*hack for weixin android*/
+}
 body:before{
     content: ' ';
     position:fixed;
@@ -28,7 +31,6 @@ body {
     min-width: 320px;
     max-width: 640px;
     margin: 0 auto;
-    overflow-y:scroll;
     overflow-x:hidden;
 }
 a{
@@ -37,6 +39,7 @@ a{
 }
 div.content{
     margin:0.3rem 0.25rem;
+    /*overflow:hidden;*/
 }
 
 div.head_nav{
