@@ -28,6 +28,8 @@ body {
     min-width: 320px;
     max-width: 640px;
     margin: 0 auto;
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
 a{
     text-decoration: none;
