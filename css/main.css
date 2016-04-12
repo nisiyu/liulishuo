@@ -13,7 +13,7 @@ body:before{
     bottom:0;
     left:0;
     margin:0 auto;
-    width:100%;
+    width:6.4rem;
     min-width:320px;
     max-width:640px;
     background: url(../img/bg_moon@2x.png) center 0 no-repeat;
@@ -24,7 +24,7 @@ body:before{
 
 body {
     position: relative;
-    width: 100%;
+    width: 6.4rem;
     min-width: 320px;
     max-width: 640px;
     margin: 0 auto;
