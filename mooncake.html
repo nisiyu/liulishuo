@@ -32,18 +32,31 @@
 
     </div>
     <div class="interaction">
-        <input type="button" id="share" value="拉仇恨"/>
-        <img src="img/btn_gift@2x.png" id="present"/>
+
+            <input type="button" value="拉仇恨" />
+
+        <img src="img/btn_gift@2x.png" id="present" onclick="gift.popup();"/>
 
     </div>
+        <div class="mask">
+
+        </div>
     <div class="present_dialog">
+        <img id="close" src="img/btn_close@2x.png" onclick="gift.close();"/>
+        <img id="lantern" src="img/pic_festival@2x.png"/>
+    <p>
+        哈哈，中秋佳节怎么能没好礼相赠呢？来，快把中秋学习大礼包拿回家。
+    </p>
 
-
+        <div class="btn_group">
+            <input type="button" class="btn_left" value="已领" />
+            <input type="button" class="btn_right" value="领取" />
+        </div>
     </div>
 
     </div>
     <script src="js/remadjust.js"></script>
     <script src="js/zepto.min.js"></script>
-    <script></script>
+    <script src="js/present.js"></script>
 </body>
 </html>
