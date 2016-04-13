@@ -154,8 +154,12 @@ div.present_dialog{
     background:url("../img/pic_popup@big.png") no-repeat;
     background-size:100%;
 }
+div#gift_pic{
+    height:4.64rem;
+}
 
-div.present_dialog > p{
+div.present_dialog  p{
+    position:relative;
     font-size:0.32rem;
     margin:0.28rem 0.64rem;
     color:white;
@@ -169,7 +173,9 @@ img#close {
 }
 
 img#lantern{
+    position:relative;
     width:4.94rem;
+    height:4.32rem;
     margin-left:0.24rem;
     margin-top:0.32rem;
 }
