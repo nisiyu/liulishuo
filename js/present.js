@@ -7,4 +7,4 @@ var gift = {
         $("div.mask").css({"display": "none"});
         $("div.present_dialog").css({"display": "none"});
     }
-}
+};

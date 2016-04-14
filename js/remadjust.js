@@ -8,7 +8,7 @@
 
     function refreshRem() {
         var width = docEl.getBoundingClientRect().width;
-        if (width > 640) { // ×î´ó¿í¶È
+        if (width > 640) {
             width = 640;
         }
         var rem = width / 6.4;
