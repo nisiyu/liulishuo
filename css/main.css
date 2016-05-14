@@ -144,7 +144,7 @@ div.mask{
 }
 
 div.present_dialog{
-    display:none;
+    display:block;
     z-index:50;
     width:5.8rem;
     height:7.9rem;
@@ -153,6 +153,11 @@ div.present_dialog{
     margin:0 auto;
     background:url("../img/pic_popup@big.png") no-repeat;
     background-size:100%;
+    opacity:0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 div#gift_pic{
     height:4.64rem;
